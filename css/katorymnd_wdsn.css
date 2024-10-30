@@ -1,0 +1,824 @@
+#dkqy,
+#zcav,
+#mun,
+#irfl,
+#tirq {
+  border: none;
+  border-bottom: 1px solid #000000;
+  outline: none;
+  height: 25px;
+  background: none;
+  font-family: comic sans ms, cursive;
+}
+
+textarea#tirq {
+  display: block;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  height: 142px;
+  padding: 9px 11px;
+}
+
+#wrhu,
+#success {
+  border: 1px solid;
+  margin: 10px 0px;
+  padding: 15px 10px 15px 50px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  list-style: none;
+  border-radius: 10px;
+}
+
+#wrhu {
+  color: #d8000c;
+  background-color: #ffbaba;
+  background-image: url("../img/GnyDvKN.png");
+}
+
+#success {
+  color: #4f8a10;
+  background-color: #dff2bf;
+  background-image: url("../img/Q9BGTuy.png");
+}
+
+.katorymnd_63p1h9o {
+  display: none; /* Initially hide the form */
+}
+
+/** admin settings */
+
+.nbvp {
+  float: left;
+  padding: 15 53px 17px;
+  cursor: pointer;
+}
+
+.rtj {
+  clear: both;
+}
+
+input.gcqri {
+  border: none;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  outline: none;
+  height: 25px;
+  background: none;
+  font-family: comic sans ms, cursive;
+}
+
+/** display the comments */
+
+.kr-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.kr-comment-text {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.kr-actions {
+  color: grey;
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
+
+.kr-actions a {
+  color: grey;
+  margin-right: 15px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.kr-actions a:hover {
+  text-decoration: underline;
+}
+
+.kr-emoji {
+  cursor: pointer;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.kr-emoji:hover,
+.kr-emoji:active {
+  animation: bounce 0.5s;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-5px);
+  }
+
+  60% {
+    transform: translateY(-3px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .kr-emoji img {
+    width: 24px; /* Smaller size for small screens */
+    height: 24px;
+  }
+
+  .kr-reaction-count {
+    font-size: 0.7rem; /* Smaller font size for counts */
+  }
+}
+.kr-emoji {
+  display: flex;
+  align-items: center; /* Vertically center align items */
+  gap: 5px; /* Space between emoji and count */
+}
+
+.kr-emoji img {
+  width: 29px;
+  height: 29px;
+}
+
+.kr-reaction-count {
+  font-size: 0.8rem;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
+}
+
+.kr-emoji {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.kr-emoji img {
+  width: 29px;
+  height: 29px;
+}
+
+.kr-reaction-count {
+  font-size: 0.8rem;
+  margin-left: 5px;
+}
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 480px) {
+  .kr-emoji img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .kr-reaction-count {
+    font-size: 0.7rem;
+  }
+}
+#katorymnd_vs76gy2 {
+  max-width: 100%; /* Ensures the container does not exceed the width of its parent */
+  gap: 5px; /* Adjusts the gap between emojis */
+}
+
+.kr-emoji {
+  flex: 0 0 auto; /* Prevents emojis from stretching and ensures wrapping */
+}
+
+/*admin section*/
+.kr-accordion-button {
+  background-color: #f1f1f1;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.kr-accordion-button.active,
+.kr-accordion-button:hover {
+  background-color: #ddd;
+}
+
+.kr-accordion-content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: white;
+  transition: max-height 0.2s ease-out;
+}
+
+.kr-code {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  padding: 2px 4px;
+  font-family: monospace;
+}
+
+.wpkr-card {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+
+.wpkr-card-header {
+  padding: 0.75rem 1.25rem;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.wpkr-card-body {
+  padding: 1.25rem;
+}
+
+.wpkr-select {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.wpkr-select:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
+}
+
+@media (min-width: 768px) {
+  /* Adjust the breakpoint as needed */
+
+  .wpkr-card {
+    flex: 1;
+    margin-right: 1rem; /* Space between cards */
+  }
+
+  .wpkr-card:last-child {
+    margin-right: 0; /* Remove margin for the last card */
+  }
+}
+
+/* Style for the emoji selection container */
+.wpkr-emoji-selection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Style for each emoji label */
+.wpkr-emoji-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+/* Style for the emoji images */
+.wpkr-emoji-label img {
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+}
+
+/* Style for the checkbox (hidden) */
+.wpkr-emoji-label input[type="checkbox"] {
+  display: none;
+}
+
+/* Style when an emoji is selected */
+.wpkr-emoji-label input[type="checkbox"]:checked + img {
+  border: 2px solid blue; /* Indicate selection */
+  border-radius: 5px;
+}
+
+/* Add a hover effect */
+.wpkr-emoji-label:hover {
+  background-color: #f8f8f8;
+  border-color: #ccc;
+}
+
+#katorymnd_ysz2tcc,
+#katorymnd_axcpgchr {
+  cursor: pointer;
+}
+
+.custom-form-check-label {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.wp-report-abuse-link {
+  color: #0073aa; /* WordPress blue */
+  cursor: pointer;
+  text-decoration: underline;
+}
+.wp-report-abuse-link:hover,
+.wp-report-abuse-link:focus {
+  color: #005077; /* Darker WordPress blue */
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .wp-list-table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+  .wp-list-table thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  .wp-list-table tr {
+    border: 1px solid #ccc;
+  }
+  .wp-list-table td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+    text-align: right;
+  }
+  .wp-list-table td:before {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    text-align: left;
+    font-weight: bold;
+  }
+  /* Label the data */
+  .wp-list-table td:nth-of-type(1):before {
+    content: "Report ID";
+  }
+  .wp-list-table td:nth-of-type(2):before {
+    content: "Comment ID";
+  }
+  .wp-list-table td:nth-of-type(3):before {
+    content: "Reason";
+  }
+  .wp-list-table td:nth-of-type(4):before {
+    content: "Details";
+  }
+  .wp-list-table td:nth-of-type(5):before {
+    content: "User Name";
+  }
+  .wp-list-table td:nth-of-type(6):before {
+    content: "Report Date";
+  }
+  .wp-list-table td:nth-of-type(7):before {
+    content: "Status";
+  }
+  .wp-list-table td:nth-of-type(8):before {
+    content: "Actions";
+  }
+}
+
+/* Targeting the table cell that contains buttons */
+.kr-accordion-content .actions-cell {
+  text-align: center; /* Center-align buttons if desired */
+}
+
+/* Styling for buttons to sit side-by-side */
+.kr-accordion-content .button.action {
+  margin: 2px 5px; /* Add space between buttons */
+  display: inline-block; /* Display buttons inline */
+}
+
+/* Style for the custom report abuse dialog */
+#reportAbuseModal.ui-dialog-content {
+  min-width: 400px; /* Adjust width as needed */
+  padding: 20px;
+  font-size: 14px; /* Adjust font size as needed */
+}
+
+.ui-dialog-titlebar {
+  background-color: #0073aa; /* WordPress admin color scheme */
+  border-radius: 4px 4px 0 0;
+  display: flex; /* Use flexbox layout */
+  justify-content: space-between; /* Distribute child elements evenly */
+  align-items: center; /* Align child elements vertically */
+}
+
+.ui-dialog-title {
+  flex: 1; /* Expand to fill available space */
+  margin-right: 10px; /* Add space between title and close button */
+}
+
+.ui-dialog-titlebar-close {
+  margin-left: auto; /* Push the close button to the right */
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  transform: translateY(-50%);
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border: none;
+  display: none;
+}
+
+.ui-button {
+  background-color: #ffffff;
+  color: #0073aa;
+  padding: 5px 10px;
+  margin: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.ui-button:hover {
+  background-color: #0073aa;
+  color: #ffffff;
+}
+
+/* Ensure the buttons are evenly spaced */
+.ui-dialog-buttonset .ui-button {
+  flex: 1; /* Gives equal width to all buttons */
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+  display: flex;
+  justify-content: space-between; /* Spaces out the buttons */
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-top: 1px solid #ddd; /* Adds a subtle line above the button pane */
+}
+
+/* Ensure the modal content is responsive and centered */
+.modal-content {
+  margin: 5% auto; /* Adjust margin for smaller screens */
+}
+
+/* Responsive adjustments for the dialog */
+@media (max-width: 600px) {
+  .modal-content,
+  .ui-dialog {
+    width: 95% !important; /* Make the dialog wider on small screens */
+    max-width: none !important; /* Override any max-width */
+  }
+}
+
+/* Overlay background to prevent interaction with the page behind */
+.ui-widget-overlay {
+  background: rgba(0, 0, 0, 0.5) !important; /* Ensure overlay is visible */
+}
+
+/* charts -admin */
+.kr_charts-container {
+  /* Remove display flex */
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px; /* Adds some space between the charts */
+}
+
+.kr_chart-container {
+  /* Use display block instead of flex */
+  display: block;
+  min-width: 300px; /* Minimum width for each chart container */
+  height: 400px; /* Sets a consistent height for each chart */
+  position: relative; /* Needed for Chart.js responsiveness */
+}
+
+canvas {
+  width: 100% !important; /* Ensures canvas fills the container width */
+  height: 100% !important; /* Ensures canvas fills the container height */
+}
+#katorymnd_uj2spxx {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px 0; /* 20px padding on top and bottom */
+}
+
+.kr_filter-container {
+  width: 100%;
+}
+
+.kr_filter-container label,
+.kr_filter-container select {
+  width: 100%;
+}
+
+/* custom-notification.css */
+.kr_notification {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: auto; /* Adjust width to fit content */
+  max-width: calc(100% - 20px); /* Adjust max-width to prevent overflow */
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  margin: 5px 10px 5px 0; /* Add right margin and maintain vertical space */
+  text-align: left; /* Align text to the left */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  border-left: 4px solid #0073aa; /* Add a left border for distinction */
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+@media screen and (max-width: 768px) {
+  .kr_notification {
+    padding: 10px;
+    margin: 5px 10px 5px 0; /* Ensure margins apply on smaller screens */
+  }
+}
+
+.kr-widget-content {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.kr-report-card {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.status-open {
+  border-left: 5px solid blue; /* Blue for open reports */
+}
+
+.status-reviewing {
+  border-left: 5px solid orange; /* Orange for reports under review */
+}
+
+.kr-report-id,
+.kr-report-user,
+.kr-report-reason,
+.kr-report-status,
+.kr-report-actions {
+  margin-bottom: 5px;
+}
+
+.open-action,
+.reviewing-action {
+  text-decoration: none;
+  color: #0073aa;
+}
+
+.open-action:hover,
+.reviewing-action:hover {
+  color: #00a0d2;
+}
+/* star rating css */
+.kr_star-rating,
+.kr_star-rating-dialog {
+  direction: ltr;
+  /* Left to right for the stars */
+  font-size: 2em; /* Makes the stars larger */
+}
+
+.kr_star,
+.kr_star_dialog {
+  color: lightgray;
+  cursor: pointer;
+  /* Ensures cursor is a pointer for all stars */
+}
+
+.kr_star.selected,
+.kr_star_dialog.selected {
+  color: gold; /* Changes the color of selected stars to gold */
+}
+
+/* Additional styles for the slider */
+.noUi-target,
+.noUi-target * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -ms-touch-action: none;
+  touch-action: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.noUi-horizontal {
+  height: 15px;
+}
+
+.noUi-handle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4caf50;
+  cursor: pointer;
+  outline: none;
+}
+
+.noUi-connect {
+  background: #0d6efd;
+}
+
+/* poll/survey admin */
+
+.hidden {
+  display: none;
+}
+
+.kr-option-container,
+.kr-question-container {
+  margin-top: 1rem;
+}
+
+.kr-option-input {
+  margin-bottom: 0.5rem;
+}
+
+/* Add spacing below each option input */
+.kr-add-option {
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.kr-delete-option {
+  margin-bottom: 8px;
+}
+
+.kr-delete-option i,
+.kr-delete-question i {
+  color: red;
+}
+
+.kr-question-container {
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.kr-delete-question {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.kr-input-group .form-control {
+  border-right: 0;
+}
+
+.kr-input-group .btn-outline-secondary {
+  border-left: 0;
+}
+.wrap {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  margin: 33px 26px 5px 0;
+}
+
+/* Enhances the visual separation of each form section */
+.card.mb-3 {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Optional: Adds a subtle shadow to each card for depth */
+}
+
+/* Custom styles for specific elements */
+.kr-question-text {
+  font-weight: bold;
+  /* Makes question texts stand out */
+}
+
+/* Adjusts the bottom margin for question and option containers for consistent spacing */
+.kr-question-container,
+.kr-option-container>div,
+/* Adjusts selector to target direct children */
+.kr-likert-container>div {
+  /* Adjusts selector to target direct children */
+  margin-bottom: 10px;
+}
+
+/* Additional custom styles can be added here */
+/* Example: Custom style for labels within form-check for enhanced readability */
+.form-check-label {
+  font-size: 0.95rem;
+  /* Adjusts font size for readability, if necessary */
+}
+
+/* Example: Custom style for enhancing the appearance of input fields and textareas */
+input[type="text"].form-control,
+textarea.form-control {
+  border: 1px solid #ced4da;
+  /* Ensures consistent border color */
+  background-color: #ffffff;
+  /* Ensures the background is white for readability */
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+/* Add Animation */
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+
+  color: white;
+}
+
+.modal-body {
+  padding: 2px 16px;
+}
+
+.modal-footer {
+  padding: 2px 16px;
+
+  color: white;
+}

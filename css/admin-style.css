@@ -1,0 +1,22 @@
+.nbvp {
+    float: left;
+    padding: 28px;
+    cursor: pointer;
+}
+
+.rtj {
+    clear: both;
+}
+
+input.gcqri {
+    border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    outline: none;
+    height: 25px;
+    background: none;
+    font-family: comic sans ms, cursive;
+}
+
+
